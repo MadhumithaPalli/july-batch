@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
+
+    <title>Park registration</title>
+
+    
+ </head>
+ <body>
+  <div style="background-color: lightgrey;">
+   <div class="container" style="width: 80% ; margin-bottom: 80px ;">
+     <img src="logo.jpg" alt="Company logo" class="logo"/>
+    <div class="hrline"></div>
+       <div class="heading"style="margin-bottom: 20px;">
+        <h1> The fun keeps Rollin' - RISE & FALL </h1>
+        <h4> 14 july 2020</h4> 
+        <img src="park-poster.jpg" alt="Park poster" class="poster" />
+        <img src="watch.html"/>
+       </div>
+        
+       <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40% ">
+          40%
+        </div>
+      </div>
+        
+      <ul class="list-inline">
+        <li class="list-inline-item" style="margin-right: 80px;">Register</li>
+        <li class="list-inline-item" style="margin-right: 80px;">Add members</li>
+        <li class="list-inline-item" style="margin-right: 80px;">Review</li>
+        <li class="list-inline-item" style="margin-right: 80px;">Payment</li>
+      </ul>
+
+     <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Membership</th>
+            <th scope="col">Discount Off in all Services</th>
+            <th scope="col"> Cost per Month</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Silver</td>
+            <td>15%</td>
+            <td>$6</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Gold</td>
+            <td>30%</td>
+            <td>$15</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Diamond</td>
+            <td>55%</td>
+            <td>$25</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Platinum</td>
+            <td>100%</td>
+            <td>$50</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+        <div class="Register-Form" style="margin-top: 10px">
+          <div class="row">
+            <div class="col-sm-6" style="background-color:rgb(255, 233, 255);">
+
+              <div class="row" style="margin-top: 10px" >
+                <div class="col-sm-6">
+                  <label class="inputlabel"> First Name</label>
+                </div>
+                <div class="col-sm-6">
+                  <input class="inputfields" type="text" placeholder="Enter your Firstname" 
+                  id="firstname"
+                  /> <br/><br/>
+                  <span id="Fnameerrmsg"></span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <label  class="inputlabel">Date Of Birth</label>
+                </div>
+                <div class="col-sm-6">
+                  <input class="inputfields" type="date" /><br/><br/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <label  class="inputlabel">Phone number</label>
+                </div>
+                <div class="col-sm-6">
+                  <input class="inputfields" type="numbers" placeholder="Enter Phone number"/><br/><br/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <label   class="inputlabel">Members</label>
+                </div>
+                <div class="col-sm-6">
+                  <input  class="inputfields" type="number" placeholder="Enter no. of members"/><br/><br/>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6" style="background-color:rgb(255, 233, 255);">
+              <div class="row" style="margin-top: 10px">
+                <div class="col-sm-6">
+                  <label  class="inputlabel">Last Name</label>
+                </div>
+                <div class="col-sm-6">
+                  <input class="inputfields" type="text" placeholder="Enter your lastname"/><br/><br/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <label  class="inputlabel">Email</label>
+                </div>
+                <div class="col-sm-6">
+                  <input class="inputfields" type="text" placeholder="Enter your email"/><br/><br/>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-sm-6">
+                  <label  class="inputlabel">Choose Package</label>
+                </div>
+                <div class="col-sm-6">
+                  <select  class="inputfields">
+                    <option value="Package">---None---</option>
+                    <option value="Package">Silver</option>
+                    <option value="Package">Gold</option>
+                    <option value="Package">Diamond</option>
+                    <option value="Package">Platinum</option>
+                   </select> <br/><br/>
+                </div>
+              </div> 
+            </div>
+
+            <div class="row" style ="margin-top: 30px;">
+             <div class="col-sm-12" style = "margin-top:30px; margin-left: 450px;"  >
+              <input type="checkbox"/>
+              <label  class="inputlabel"> I agree to all the <a href="https://www.random.org/terms/website/" target="_blank"> terms and conditions</a> </label><br/>
+              <button onclick="validate()">Save & Submit</button>
+             </div>
+            </div>
+          </div>     
+        </div>
+    </div>
+  </div> 
+   <script  src="./Script.js"> </script>
+  
+
+ </body>
+</html>

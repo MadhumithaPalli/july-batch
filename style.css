@@ -1,0 +1,44 @@
+
+        .container{
+            max-width: 80% !important;
+            background-color: rgb(255, 255, 255);
+        }
+        .logo{
+            height: 200px;
+            width: 250px;
+        }
+        .hrline{
+            border-bottom: 3px solid ;
+            margin-top: 20px ;
+            color: rgb(94, 47, 47);
+        }
+        .poster{
+            width: 100% ;
+        }
+        
+        .list-inline{
+            display:flex;
+            font-size: 20px;
+            margin: 10px 0px 10px 250px;
+        }
+       .thead-dark{
+           color: white;
+           background-color: black;
+       }
+       .inputlabel{
+         font-family: none;
+         font-size: 14px;
+       }
+       .inputfields{
+         border: none;
+         height: 30px;
+         border-radius:8px;
+         padding:0px 0px 0px 10px;
+         font-size: 14px;
+       }
+       button:hover {
+         background-color: rgb(26, 230, 7);
+       }
+        
+
+    
